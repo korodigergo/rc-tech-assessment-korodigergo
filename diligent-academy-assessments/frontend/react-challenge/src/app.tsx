@@ -1,10 +1,11 @@
 import HeroesList from "./heroes-list";
+import './index.css'
 
 function App() {
 
   return (
-    <div>
-      <h1>App</h1>
+    <div className="flex flex-col items-center">
+      <h1 className="text-3xl">App</h1>
       <HeroesList />
     </div>
   );
